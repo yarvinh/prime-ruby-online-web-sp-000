@@ -1,10 +1,13 @@
 # Add  code here!
 def prime?(num)
-  counter = 1
-while counter <= 10
-  float = num / counter
-  float.class === float
-  counter +=1
-end
-
+    counter = 2
+    result = " "
+    while counter < num
+        float = num % counter == 0
+        if float == true
+            result = false
+    end
+        counter += 1
+    end
+    result == false || num < 3 ? false : true
 end
