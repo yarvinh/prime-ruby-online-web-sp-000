@@ -9,5 +9,5 @@ def prime?(num)
     end
         counter += 1
     end
-    result == false || num < 3 ? false : true
+    result == false || num < 2 ? false : true
 end
